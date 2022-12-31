@@ -1,0 +1,154 @@
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin-left: 200px;
+    background-color: rgb(75, 75, 83);
+}
+
+section {
+    height: 110vh;
+}
+
+.navbar {
+    background-color:floralwhite;
+    width: 15%;
+    height: 100vh;
+    margin-top: -15px;
+    padding-top: 50px;
+    position: fixed;
+    left: 0;
+    
+}
+
+.navbar-list {
+    list-style: none;
+    
+}
+
+.navbar-list-item {
+    padding-top: 50px;
+}
+
+.navbar-list a {
+    text-decoration: none;
+    color: #cd2a38
+}
+.navbar-list a:hover {
+    text-decoration: underline;
+    color: #a2181a
+}
+
+
+.bio {
+    width: 50%;
+    margin: auto;
+   text-align: center;
+   color: floralwhite
+}
+
+#intro p {
+    margin-top: 50px;
+    color: #cfd72e
+}
+
+.intro-greeting{
+    font-size: 40px;
+}
+
+.profile-pic{
+    width: 40%;
+}
+
+.intro-profile {
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    color: floralwhite
+}
+
+.about-physio{
+    width: 30%;
+}
+
+.about-physio img, .about-prob img, .about-hobby img {
+    width: 80%;
+}
+
+.about-prob {
+    margin-left: 200px;
+    margin-top: -150px;
+    width: 30%;
+}
+
+.about-hobby {
+    width: 30%;
+    margin-left: 400px;
+    margin-top: -150px;
+}
+
+.fa-brands {
+    font-size: 60px;
+}
+
+.skills-icons-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: max-content;
+    margin-top: 50px;
+
+}
+
+.skills-icons-container p{
+    color:chartreuse;
+}
+
+.flask-icon, .express-icon{
+    background-color: floralwhite;
+}
+
+
+.link-to-top{
+    color: grey;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+
+
+.projects-container{
+    
+}
+
+.project{
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.project-img{
+    width: 300px;
+    margin-left: 15px;
+}
+
+.project-link{
+    color:coral;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.project-link:hover{
+    color:aliceblue;
+    text-decoration: underline;
+}
