@@ -179,9 +179,11 @@ section {
 }
 
 .contact-items{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 10%;
 }
 
