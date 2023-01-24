@@ -90,8 +90,12 @@ section {
     color: floralwhite
 }
 
+#about h2 {
+    margin-bottom: 10%;
+}
+
 .about-physio{
-    width: 30%;
+    width: 33%;
 }
 
 .about-physio img, .about-prob img, .about-hobby img {
@@ -99,14 +103,14 @@ section {
 }
 
 .about-prob {
-    margin-left: 30%;
+    margin-left: 33%;
     margin-top: -150px;
-    width: 30%;
+    width: 33%;
 }
 
 .about-hobby {
-    width: 30%;
-    margin-left: 60%;
+    width: 33%;
+    margin-left: 66%;
     margin-top: -150px;
 }
 
@@ -132,7 +136,7 @@ section {
 }
 
 .skills-icons-row p{
-    margin-bottom: 30px;
+    margin-bottom: 40%;
 }
 
 .flask-icon, .express-icon{
@@ -153,13 +157,16 @@ section {
 
 .project{
     display: flex;
-    margin-top: 40px;
-    
+    margin-top: 10%;
+}
+
+.project p {
+    color: rgba(255, 250, 240, 0.8);
 }
 
 .project-img{
     width: 300px;
-    margin-left: 15px;
+    margin: 0px 15px;
 }
 
 .project-link{
