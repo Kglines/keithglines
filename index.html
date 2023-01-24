@@ -22,9 +22,6 @@
             <li class="projects">
                 <a href="#projects">Projects</a>
             </li>
-            <li class="resume">
-                <a href="#resume">Resume</a>
-            </li>
             <li class="contact">
                 <a href="#contact">Contact</a>
             </li>
@@ -127,11 +124,28 @@
                 </div>
             </div>
         </section>
-        <section id="resume">
-            <h3>Resume</h3>
-        </section>
         <section id="contact">
             <h3>Contact</h3>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div><i class="fa-solid fa-envelope" id="email"></i></div>
+                    <a>keithglines@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                   
+                    <a href="https://www.linkedin.com/in/keith-glines-70b28b30/" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    
+                    <a href="https://github.com/Kglines" target="_blank"><i class="fa-brands fa-github"></i>Github</a>
+                </div>
+            </div>
+            <form id="form" class="hide" action="mailto:keithglines@gmail.com" method="POST" enctype="multipart/form-data" name="emailForm">    
+                <input placeholder="Subject" name="Subject"/>
+                <input placeholder="Your email or contact info" name="Contact" />
+                <textarea placeholder="Message" name="Message"></textarea>
+                <button type="submit" value="Submit">Send</button>
+            </form>
         </section>
     </div>
 </body>

@@ -1,6 +1,11 @@
 const sections = document.querySelectorAll('section')
 const navListItem = document.querySelectorAll('nav ul li')
 const navLink = document.querySelectorAll('nav ul li a')
+const email = document.getElementById('email')
+const form = document.getElementById('form')
+const inputs = document.querySelectorAll('input')
+const textarea = document.querySelector('textarea')
+const button = document.querySelector('button')
 
 window.addEventListener('scroll', () => {
     let current = '';
@@ -21,4 +26,14 @@ window.addEventListener('scroll', () => {
    
 })
 
+email.addEventListener('click', () => {
+    if(form.classList.contains('hide')){
+        form.classList.remove('hide')
+    } else {
+        form.classList.add('hide')
+    }
+})
 
+button.addEventListener('click', () => {
+    form.classList.add('hide')
+})
