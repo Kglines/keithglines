@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding-left: 100px;
+    background-color: rgb(75, 75, 83);
+}
+
+section {
+    height: 100vh;
+    border-bottom: 0.5px dotted black;
+    padding-bottom: 100px;
+    margin-top: 100px;
+}
+
+.navbar {
+    background-color:floralwhite;
+    width: 15%;
+    height: 100vh;
+    padding-top: 50px;
+    position: fixed;
+    left: 0;
+    
+}
+
+.navbar-list {
+    list-style: none;
+    margin-left: 25%;
+}
+
+.navbar-list li {
+    padding-top: 50px;
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #cd2a38
+}
+
+.navbar-list li a:hover {
+    text-decoration: underline;
+    color: rgb(75, 75, 83);
+}
+
+.active{
+    text-decoration: underline;  
+}
+
+.bio {
+    width: 50%;
+    margin: auto;
+   text-align: center;
+   color: floralwhite
+}
+
+#intro p {
+    margin-top: 50px;
+    color: #cfd72e
+}
+
+.intro-greeting{
+    font-size: 40px;
+}
+
+.profile-pic{
+    width: 50%;
+}
+
+.intro-profile {
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    color: floralwhite
+}
+
+#about h2 {
+    margin-bottom: 10%;
+}
+
+.about-physio{
+    width: 33%;
+}
+
+.about-physio img, .about-prob img, .about-hobby img {
+    width: 80%;
+}
+
+.about-prob {
+    margin-left: 33%;
+    margin-top: -150px;
+    width: 33%;
+}
+
+.about-hobby {
+    width: 33%;
+    margin-left: 66%;
+    margin-top: -150px;
+}
+
+.fa-brands {
+    font-size: 60px;
+}
+
+#skills h3 {
+    margin-bottom: 50px;
+}
+
+.skills-icons-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    grid-auto-rows: max-content;
+    margin-top: 50px;
+    
+}
+
+.skills-icons-container p{
+    color:chartreuse;
+}
+
+.skills-icons-row p{
+    margin-bottom: 40%;
+}
+
+.flask-icon, .express-icon{
+    background-color: floralwhite;
+}
+
+
+.link-to-top{
+    color: grey;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+
+#projects{
+    height: 120vh;
+}
+
+.project{
+    display: flex;
+    margin-top: 10%;
+}
+
+.project p {
+    color: rgba(255, 250, 240, 0.8);
+}
+
+.project-img{
+    width: 300px;
+    margin: 0px 15px;
+}
+
+.project-link{
+    color:coral;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.project-link:hover{
+    color:aliceblue;
+    text-decoration: underline;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.contact-items{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: space-between; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10%;
+}
+
+.contact-item a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.contact-item i {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.contact-item i:hover{
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 5% auto;
+}
+
+form input {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form textarea {
+    margin-top: 2%;
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    padding: 5px;
+}
+form button {
+    margin: 10px auto;
+    width: 100px;
+    height: 25px;
+    background-color: #cd2a38;
+    color: floralwhite;
+    box-shadow: 1px 1px 5px rgb(31, 31, 31);
+}
+form button:hover{
+    cursor: pointer;
+    background-color: #cd2a38cc;
+}
+
+.hide {
+    display: none;
+}

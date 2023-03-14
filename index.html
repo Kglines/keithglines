@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keith Glines Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/favicon_io (5)/favicon.ico">
+    <script src="https://kit.fontawesome.com/724087b55f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a class="link-to-top active" href="#intro">Return to Top</a>
+        <ul class="navbar-list">
+            <li class="about">
+                <a href="#about">About</a>
+            </li>
+            <li class="skills">
+                <a href="#skills">Skills</a>
+            </li>
+            <li class="projects">
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="contact">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="bio">
+        <section id="intro">
+            <p>Hi, I'm <h1 class="intro-greeting">Keith Glines</h1></p>
+            <p class="intro-profile">A Full Stack Software Engineer, Personal Trainer, and Vintage Baseball Player.</p>
+            <img class="profile-pic" alt="Keith Glines" src="./images/profile.jpeg" alt="Extremely talented guy" title="Extremely talented guy"/>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <div class="about-physio">
+                <p>I'm a passionate and eager Software Engineer with a background in human physiology. </p>
+                <img src="./images/lift.jpeg" alt="Keith lifting a very heavy log." />
+            </div>
+            <div class="about-prob">
+                <p>I enjoy researching and creating solutions to complex problems.</p>
+                <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="software code" />
+            </div>
+            <div class="about-hobby">
+                <p>When I'm not solving problems, I enjoy playing Vintage Baseball, exercising, and volunteering in the community.</p>
+                <img src="./images/hobby.jpeg" />
+            </div>
+                
+        </section>
+        <section id="skills">
+            <h3>Skills</h3>
+            <p>My favorite programming languages are Javascript (featuring <strong>React</strong> and <strong>Redux</strong>) as well as Python (featuring <strong>Flask</strong> and <strong>SQLAlchemy</strong>).</p>
+            <div class="skills-icons-container">
+                <div class="skills-icons-row">
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML5</p>
+                    <i class="fa-brands fa-react"></i>
+                    <p>React</p>
+                    <i class="fa-brands fa-python"></i>
+                    <p>Python</p>
+                    <i class="fa-brands fa-aws"></i>
+                    <p>AWS</p>
+                </div>
+                <div class="skills-icons-row">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS3</p>
+                    <i class="fa-brands fa-node"></i>
+                    <p>Node.js</p>
+                    <i>
+                        <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="50" height="50" class="flask-icon" />
+                    </i>
+                    <p>Flask</p>
+                    <i class="fa-brands fa-github"></i>
+                    <p>Github</p>
+                </div>
+                <div class="skills-icons-row">
+                    <i class="fa-brands fa-js"></i>
+                    <p>JavaScript</p>
+                    <i>
+                        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+                            alt="express" width="50" height="50" class="express-icon" />
+                    </i>
+                    <p>Express.js</p>
+                    <i class="fa-brands fa-docker"></i>
+                    <p>Docker</p>
+                    <i class="fa-brands fa-git"></i>
+                    <p>Git</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h3>Projects</h3>
+            <div class="projects-container">
+                <div class="project">
+                    <p><strong>Photogram</strong> is a full-stack application that mimics Instagram. This app uses <strong>Python / Flask</strong> for the backend and <strong>React / Redux</strong> for the frontend as well as <strong>CSS</strong> for styling. A user can signup, login, share posts, like posts, and follow friends. A Demo User function
+                    allows someone to try the app without signing up!</p>
+                    <div>
+                        <img class="project-img" src="./images/photogram.png" />
+                        <a class="project-link" href="https://github.com/Kglines/photo_gram" target="_blank">Github</a>
+                        <a class="project-link" href="https://photogram.onrender.com/home" target="_blank">Live</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div>
+                        <img class="project-img" src="./images/stack.png" />
+                        <a href="https://github.com/scottywong/stack_overflow" target="_blank" class="project-link">Github</a>
+                        <a href="https://stackoverflow-bb.herokuapp.com/" target="_blank" class="project-link">Live</a>
+                    </div>
+                    <p>This is a full-stack application that is a clone of StackOverflow. The technologies used are <strong>Python / Flask</strong>, <strong>SQLAlchemy</strong>,
+                    <strong>React / Redux</strong>, <strong>React-Router</strong>, and <strong>CSS</strong>. A user can create an account, login, ask questions, answer questions, upvote or
+                    downvote answers, and see all of their questions and all of their answers.</p>
+                </div>
+                <div class="project">
+                    <p><strong>PoundCloud</strong> is a fullstack application similar to Sound Cloud, utilizing React / Redux, Express, Sequelize, HTML, CSS where users can create albums,
+                    songs, and playlists! A Demo user function exists on this project to allow a user to check out the app without signing
+                    up.</p>
+                    <div>
+                        <img class="project-img" src="./images/poundcloud.png" />
+                        <a href="https://github.com/Kglines/PoundCloud_Project" target="_blank" class="project-link">Github</a>
+                        <a href="https://poundcloud.onrender.com/" target="_blank" class="project-link">Live</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h3>Contact</h3>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div><i class="fa-solid fa-envelope" id="email"></i></div>
+                    <a>keithglines@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                   
+                    <a href="https://www.linkedin.com/in/keith-glines-70b28b30/" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    
+                    <a href="https://github.com/Kglines" target="_blank"><i class="fa-brands fa-github"></i>Github</a>
+                </div>
+            </div>
+            <form id="form" class="hide" action="mailto:keithglines@gmail.com" method="POST" enctype="multipart/form-data" name="emailForm">    
+                <input placeholder="Subject" name="Subject"/>
+                <input placeholder="Your email or contact info" name="Contact" />
+                <textarea placeholder="Message" name="Message"></textarea>
+                <button type="submit" value="Submit">Send</button>
+            </form>
+        </section>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
